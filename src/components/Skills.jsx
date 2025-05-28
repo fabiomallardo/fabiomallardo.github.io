@@ -1,13 +1,13 @@
 import './Skills.css'
 
-import htmlIcon from '../assets/html.svg'
-import cssIcon from '../assets/css-3.svg'
-import jsIcon from '../assets/js.png'
-import reactIcon from '../assets/react.png'
-import nodeIcon from '../assets/nodejs-icon.svg'
-import gitIcon from '../assets/git.svg'
-import mongoIcon from '../assets/mongodb.svg'
-import bootstrapIcon from '../assets/bootstrap.png'
+import htmlIcon from '/src/assets/html.svg'
+import cssIcon from '/src/assets/css-3.svg'
+import jsIcon from '/src/assets/js.png'
+import reactIcon from '/src/assets/react.png'
+import nodeIcon from '/src/assets/nodejs-icon.svg'
+import gitIcon from '/src/assets/git.svg'
+import mongoIcon from '/src/assets/mongodb.svg'
+import bootstrapIcon from '/src/assets/bootstrap.png'
 
 const skills = [
   { name: 'HTML', img: htmlIcon },
