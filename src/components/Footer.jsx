@@ -1,5 +1,6 @@
 import { animateScroll as scroll } from 'react-scroll'
 import './Footer.css'
+import githubIcon from '../assets/github-svgrepo-com.svg'
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
         rel="noreferrer"
         className="github-link"
       >
-        <img src="/src/assets/github-svgrepo-com.svg" alt="GitHub" />
+        <img src={githubIcon} alt="GitHub" />
       </a>
     </footer>
   )
