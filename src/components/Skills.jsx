@@ -1,14 +1,23 @@
 import './Skills.css'
 
+import htmlIcon from '../assets/html.svg'
+import cssIcon from '../assets/css-3.svg'
+import jsIcon from '../assets/js.png'
+import reactIcon from '../assets/react.png'
+import nodeIcon from '../assets/nodejs-icon.svg'
+import gitIcon from '../assets/git.svg'
+import mongoIcon from '../assets/mongodb.svg'
+import bootstrapIcon from '../assets/bootstrap.png'
+
 const skills = [
-  { name: 'HTML', img: 'src/assets/html.svg' },
-  { name: 'CSS', img: 'src/assets/css-3.svg' },
-  { name: 'JavaScript', img: 'src/assets/js.png' },
-  { name: 'React', img: 'src/assets/react.png' },
-  { name: 'Node', img: 'src/assets/nodejs-icon.svg' },
-  { name: 'Git', img: 'src/assets/git.svg' },
-  { name: 'MongoDB', img: 'src/assets/mongodb.svg' },
-  { name: 'Bootstrap', img: 'src/assets/bootstrap.png' }
+  { name: 'HTML', img: htmlIcon },
+  { name: 'CSS', img: cssIcon },
+  { name: 'JavaScript', img: jsIcon },
+  { name: 'React', img: reactIcon },
+  { name: 'Node', img: nodeIcon },
+  { name: 'Git', img: gitIcon },
+  { name: 'MongoDB', img: mongoIcon },
+  { name: 'Bootstrap', img: bootstrapIcon }
 ]
 
 export default function Skills() {
