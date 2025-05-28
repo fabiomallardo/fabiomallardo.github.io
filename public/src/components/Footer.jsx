@@ -13,7 +13,7 @@ export default function Footer() {
         rel="noreferrer"
         className="github-link"
       >
-        <img src="./src/assets/github-svgrepo-com.svg" alt="GitHub" />
+        <img src="src/assets/github-svgrepo-com.svg" alt="GitHub" />
       </a>
     </footer>
   )
