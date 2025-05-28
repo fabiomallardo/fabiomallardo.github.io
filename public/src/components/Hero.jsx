@@ -13,7 +13,7 @@ export default function Hero() {
           return (
             <img
               key={i}
-              src="src/assets/foto.png"
+              src="/assets/foto.png"
               className="stella"
               alt="star"
               style={{ top, left, animationDelay: delay, animationDuration: duration }}
@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       <img
-        src="src/assets/un-moderno-computer-portatile-su-sfondo-nero_180633-6022.png"
+        src="/assets/un-moderno-computer-portatile-su-sfondo-nero_180633-6022.png"
         alt="hero"
         className="hero-image"
       />
