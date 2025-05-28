@@ -1,5 +1,5 @@
 import './Hero.css'
-import computerImg from '../assets/un-moderno-computer-portatile-su-sfondo-nero_180633-6022.png'
+import computerImg from '../assets/hero(10).png'
 import starImg from '../assets/foto.png'
 
 export default function Hero() {
