@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(9, 13, 25, 0.9);
+  backdrop-filter: blur(6px);
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .brand {
+  font-weight: bold;
+  color: #7a7e85;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  color: #7a7e85;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+  }
+}

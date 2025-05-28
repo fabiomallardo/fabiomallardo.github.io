@@ -1,0 +1,32 @@
+.contact {
+  background-color: #090d19;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #d5f6ff;
+  margin-bottom: 40px;
+  text-shadow: 3px 3px 15px rgba(210, 245, 255, 0.7);
+}
+
+.contact-info {
+  color: #9ea3a8;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact-info {
+    font-size: 1rem;
+  }
+}

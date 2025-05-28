@@ -1,0 +1,9 @@
+:root {
+  --bg: #0d1117;
+  --text: #d5f6ff;
+  --muted: #7a7e85;
+  --accent: #00d8ff;
+  --font-main: 'Poppins', sans-serif;
+  --radius: 12px;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,40 @@
+.footer {
+  background-color: #090d19;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-title {
+  color: #d5f6ff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-shadow: 3px 3px 15px rgba(210, 245, 255, 0.3);
+  transition: color 0.3s ease;
+}
+
+.footer-title:hover {
+  color: white;
+}
+
+.github-link img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  filter: grayscale(1) brightness(0.8);
+}
+
+.github-link img:hover {
+  transform: scale(1.2);
+  filter: grayscale(0) brightness(1);
+}
+
+@media (max-width: 768px) {
+  .footer-title {
+    font-size: 1.2rem;
+  }
+
+  .github-link img {
+    width: 35px;
+  }
+}
