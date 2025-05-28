@@ -1,6 +1,7 @@
 import { animateScroll as scroll } from 'react-scroll'
 import './Footer.css'
-import githubIcon from '/src/assets/github-svgrepo-com.svg'
+import githubIcon from '../assets/github-svgrepo-com.svg'
+
 
 export default function Footer() {
   return (
