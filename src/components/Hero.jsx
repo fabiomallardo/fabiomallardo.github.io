@@ -1,4 +1,6 @@
 import './Hero.css'
+import computerImg from '../assets/un-moderno-computer-portatile-su-sfondo-nero_180633-6022.png'
+import starImg from '../assets/foto.png'
 
 export default function Hero() {
   return (
@@ -13,18 +15,17 @@ export default function Hero() {
           return (
             <img
               key={i}
-              src="/assets/foto.png"
+              src={starImg}
               className="stella"
               alt="star"
               style={{ top, left, animationDelay: delay, animationDuration: duration }}
             />
           )
         })}
-
       </div>
 
       <img
-        src="/assets/un-moderno-computer-portatile-su-sfondo-nero_180633-6022.png"
+        src={computerImg}
         alt="hero"
         className="hero-image"
       />
